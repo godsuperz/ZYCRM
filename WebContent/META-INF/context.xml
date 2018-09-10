@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context reloadable="true">  
+    <Resource name="jdbc/zycrm"   
+              auth="Container"   
+              type="javax.sql.DataSource"  
+              maxIdle="30"     
+              username="root"   
+              password="root"  
+              driverClassName="com.mysql.jdbc.Driver"   
+              url="jdbc:mysql://127.0.0.1:3306/db?characterEncoding=utf8&amp;useSSL=true"   
+    />
+</Context> 
